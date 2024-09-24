@@ -10,6 +10,11 @@
         "title": "Deploy Hazelcast Platform Operator",
         "text": "step1/deploy.md",
         "verify": "step1/verify_deploy.sh"
+      },
+      {
+        "title": "Start the Hazelcast Cluster",
+        "text": "step2/start_hz.md",
+        "verify": "step2/verify_start.sh"
       }
     ],
     "assets": {
