@@ -19,6 +19,9 @@
         "verify": "step2/verify_start.sh"
       }
     ],
+    "finish": {
+      "text": "finish.md"
+    },
     "assets": {
       "host01": [
         {"file": "hazelcast.yaml", "target": "/root", "chmod": "+w"}
