@@ -9,7 +9,7 @@
       {
         "title": "Deploy Hazelcast Platform Operator",
         "text": "deploy.md",
-        "verify": "verify_deploy.sh"
+        "verify": "step1/verify_deploy.sh"
       }
     ],
     "assets": {
