@@ -13,7 +13,7 @@ spec:
 
 ```plain
 kubectl apply -f /root/hazelcast.yaml
-kubectl -n kubernetes-dashboard wait --for=condition=ready pod --all
+kubectl -n default wait --for=condition=ready pod --all
 ```{{exec}}
 
 
