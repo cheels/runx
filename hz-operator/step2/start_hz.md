@@ -1,6 +1,8 @@
-Hazelcast Enterprise requires a **license key**. If you don’t have a license key, you can request one from the [Hazelcast website](http://trialrequest.hazelcast.com/)
+> **Note:**
+> 
+> Hazelcast Enterprise requires a **license key**. If you don’t have a license key, you can request one from the [Hazelcast website](http://trialrequest.hazelcast.com/)
 <br>
-So, please, paste your license key into the dialog window.
+So, please, paste your license key into the dialog window and click Enter.
 
 1. Create a Kubernetes secret to hold your license key.
     ```

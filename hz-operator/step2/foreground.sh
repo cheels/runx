@@ -1,1 +1,1 @@
-./password_prompt.sh
+LICENSE_KEY=$(./password_prompt.sh)
