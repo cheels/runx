@@ -17,4 +17,4 @@ kubectl -n kubernetes-dashboard wait --for=condition=ready pod --all
 ```{{exec}}
 
 
-Finally verify that Hazelcast cluster is up and running by clicking `VERIFY` button.
+Finally verify that Hazelcast cluster is up and running by clicking **CHECK** button.
