@@ -1,3 +1,5 @@
 #!/bin/bash
-read -p "$(./assets/color_prompt.sh 'Please enter your LICENSE_KEY: ')" LICENSE_KEY
+
+# Run the background script to handle the prompt
+LICENSE_KEY=$(bash /root/assets/background.sh)
 
