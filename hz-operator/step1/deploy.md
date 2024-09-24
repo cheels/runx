@@ -6,6 +6,6 @@
 
 2. Run the following command to deploy the Operator and the CRDs together.
     ```
-    helm install operator hazelcast/hazelcast-platform-operator --version=5.12.0 \
+    helm install operator hazelcast/hazelcast-platform-operator --version=5.13.0 \
     --set=installCRDs=true
     ```{{exec}}
