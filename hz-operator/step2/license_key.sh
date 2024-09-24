@@ -1,5 +1,3 @@
 #!/bin/bash
-YELLOW='\033[1;33m'
-NC='\033[0m'
+read -p "$(./assets/color_prompt.sh 'Please enter your LICENSE_KEY: ')" LICENSE_KEY
 
-read -p "$(echo -e "${YELLOW}Please enter your LICENSE_KEY: ${NC}")" LICENSE_KEY
