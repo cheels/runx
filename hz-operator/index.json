@@ -11,7 +11,12 @@
         "text": "deploy.md",
         "verify": "verify_deploy.sh"
       }
-    ]
+    ],
+    "assets": {
+      "host01": [
+        {"file": "hazelcast.yaml", "target": "/root/step2", "chmod": "+w"}
+      ]
+    }
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-1node"
