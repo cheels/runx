@@ -1,3 +1,4 @@
+# Install whiptail to prompt LicenseKey
 sudo apt-get install -y whiptail
 cat << 'EOF' > password_prompt.sh
 while true; do
@@ -10,3 +11,7 @@ done
 EOF
 
 chmod +x password_prompt.sh
+
+# Install clc
+curl https://hazelcast.com/clc/install.sh | bash
+sudo cp /root/.hazelcast/bin/clc /usr/local/bin
