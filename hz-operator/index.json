@@ -19,7 +19,7 @@
     ],
     "assets": {
       "host01": [
-        {"file": "hazelcast.yaml", "target": "/root/step2", "chmod": "+w"}
+        {"file": "hazelcast.yaml", "target": "/root", "chmod": "+w"}
       ]
     }
   },
