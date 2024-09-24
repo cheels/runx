@@ -1,0 +1,19 @@
+{
+  "title": "Connect to Hazelcast from Outside Kubernetes",
+  "description": "In this tutorial, you’ll connect to a Hazelcast cluster running in Kubernetes from outside of the Kubernetes environment.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Deploy Hazelcast Platform Operator",
+        "text": "deploy.md",
+        "verify": "verify_deploy.sh"
+      }
+    ],
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node"
+  }
+}
