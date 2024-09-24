@@ -1,6 +1,10 @@
 Start the Hazelcast Cluster by applying Hazelcast custom resource file `hazelcast.yaml`.
 
+<details>
+<summary>hazelcast.yaml</summary>
+
 ```yaml
+
 apiVersion: hazelcast.com/v1alpha1
 kind: Hazelcast
 metadata:
@@ -10,6 +14,7 @@ spec:
   repository: 'docker.io/hazelcast/hazelcast'
   version: '5.5-slim'
 ```
+</details>
 
 ```plain
 kubectl apply -f /root/hazelcast.yaml
