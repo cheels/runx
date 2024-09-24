@@ -7,10 +7,6 @@ helm repo update
 Run the following command to deploy the Operator and the CRDs together.
 
 ```plain
-kubectl create secret generic hazelcast-license-key --from-literal=license-key="$LICENSE_KEY"
-```{{exec}}
-
-```plain
 helm install operator hazelcast/hazelcast-platform-operator --version=5.12.0 \
     --set=installCRDs=true
 ```{{exec}}
