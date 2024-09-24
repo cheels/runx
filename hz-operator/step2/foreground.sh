@@ -1,2 +1,2 @@
 #!/bin/bash
-source ./password_prompt.sh
+source password_prompt.sh
