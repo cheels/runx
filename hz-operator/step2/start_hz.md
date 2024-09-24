@@ -10,7 +10,7 @@ kind: Hazelcast
 metadata:
   name: hazelcast
 spec:
-  clusterSize: 3
+  clusterSize: 2
   repository: 'docker.io/hazelcast/hazelcast'
   version: '5.5-slim'
 ```
@@ -18,7 +18,7 @@ spec:
 
 ```plain
 kubectl apply -f /root/hazelcast.yaml --wait
-kubectl wait --for=jsonpath='{.status.phase}'=Running --timeout=60s hazelcast/hazelcast || kubectl get hazelcasts.hazelcast.com hazelcast -o wide
+kubectl wait --for=jsonpath='{.status.phase}'=Running --timeout=120s hazelcast/hazelcast || kubectl get hazelcasts.hazelcast.com hazelcast -o wide
 ```{{exec}}
 
 
