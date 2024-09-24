@@ -9,12 +9,12 @@
       {
         "title": "Deploy Hazelcast Platform Operator",
         "text": "step1/deploy.md",
+        "background": "step1/background.sh",
         "verify": "step1/verify_deploy.sh"
       },
       {
         "title": "Start the Hazelcast Cluster",
         "text": "step2/start_hz.md",
-        "background": "step2/background.sh",
         "foreground": "step2/foreground.sh",
         "verify": "step2/verify_start.sh"
       }
