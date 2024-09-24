@@ -12,7 +12,7 @@ spec:
 ```
 
 ```plain
-kubectl apply -f /root/step2/hazelcast.yaml
+kubectl apply -f /root/hazelcast.yaml
 kubectl -n kubernetes-dashboard wait --for=condition=ready pod --all
 ```{{exec}}
 
