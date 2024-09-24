@@ -18,6 +18,8 @@ spec:
 
 ```plain
 kubectl apply -f /root/hazelcast.yaml --wait
+kubectl wait --for=jsonpath='{.status.phase}'=Running --timeout=60s hazelcast/hazelcast || kubectl get hazelcasts.hazelcast.com hazelcast -o wide)
+
 ```{{exec}}
 
 
