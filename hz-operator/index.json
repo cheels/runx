@@ -15,7 +15,6 @@
         "title": "Start the Hazelcast Cluster",
         "text": "step2/start_hz.md",
         "background": "step2/color_setup.sh",
-        "foreground": "step2/license_key.sh",
         "verify": "step2/verify_start.sh"
       }
     ],

@@ -1,9 +1,3 @@
 #!/bin/bash
-cat <<EOL > /root/assets/color_prompt.sh
-#!/bin/bash
-YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
-echo -e "\${YELLOW}\$1\${NC}"
-EOL
-
-chmod +x /root/assets/color_prompt.sh
+sudo apt-get install -y whiptail
+LICENSE_KEY=$(whiptail --passwordbox "Please enter your License Key" 8 78 --title "License key" 3>&1 1>&2 2>&3)
