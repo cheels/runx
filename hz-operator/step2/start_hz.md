@@ -17,8 +17,7 @@ spec:
 </details>
 
 ```plain
-kubectl apply -f /root/hazelcast.yaml
-kubectl -n default wait --for=condition=ready pod --all
+kubectl apply -f /root/hazelcast.yaml --wait
 ```{{exec}}
 
 
