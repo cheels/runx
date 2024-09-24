@@ -8,7 +8,7 @@
     "steps": [
       {
         "title": "Deploy Hazelcast Platform Operator",
-        "text": "deploy.md",
+        "text": "step1/deploy.md",
         "verify": "step1/verify_deploy.sh"
       }
     ],
