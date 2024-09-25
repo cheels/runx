@@ -1,5 +1,6 @@
-# Summary
+# Tutorial: Connect to Hazelcast from Outside Kubernetes Complete
 
-You have installed and configured Hazelcast Operator.
+In this tutorial, you learned how to install, configure Hazelcast Operator and connect to Hazelcast cluster running in Kubernetes from outside the Kubernetes environment.
 
-In the [next tutorial](https://docs.hazelcast.com/tutorials/hazelcast-platform-operator-external-backup-restore), you learn how to back up data in Hazelcast maps to cloud storage and restore a cluster from that backup data.
+## What's Next?
+You can explore more [advanced topic](https://docs.hazelcast.com/tutorials/hazelcast-platform-operator-external-backup-restore), where you learn how to back up data in Hazelcast maps to cloud storage and restore a cluster from that backup data.

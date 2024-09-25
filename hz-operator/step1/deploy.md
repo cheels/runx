@@ -1,3 +1,7 @@
+In this step, you will deploy Hazelcast Platform Operator.
+From release 5.6.0 onwards, you can use a Helm chart to install the Hazelcast Platform Operator.
+
+
 1. Add the Hazelcast Helm Charts repository to your Helm repository list by running the following command:
     ```
     helm repo add hazelcast https://hazelcast-charts.s3.amazonaws.com/

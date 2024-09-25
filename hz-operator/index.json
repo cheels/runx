@@ -17,6 +17,11 @@
         "text": "step2/start_hz.md",
         "foreground": "step2/foreground.sh",
         "verify": "step2/verify_start.sh"
+      },
+      {
+        "title": "Connect Hazelcast Clients to the Cluster",
+        "text": "step3/client.md",
+        "verify": "step3/check_size.sh"
       }
     ],
     "finish": {

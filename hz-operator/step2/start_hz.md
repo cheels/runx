@@ -1,10 +1,18 @@
+There are two available options for Expose Externally feature of Hazelcast Platform Operator:
+* Unisocket - client requests are load balanced between Hazelcast members.
+* Smart - client connects to all members and sends requests directly to the members owning the data.
+In this tutorial we will use Smart Client. 
+
+<img src="../assets/smart.png" width="600px" alt="">
+
 > **Note:**
-> 
+>
 > Hazelcast Enterprise requires a **license key**. If you don’t have a license key, you can request one from the [Hazelcast website](http://trialrequest.hazelcast.com/)
 <br>
-So, please, paste your license key into the dialog window and click Enter.
-
-1. Create a Kubernetes secret to hold your license key.
+>
+To start the Hazelcast Cluster we need: 
+1. Paste your license key into the dialog window and click **Enter**.
+2. Create a Kubernetes secret to hold your license key.
     ```
     kubectl create secret generic hazelcast-license-key --from-literal=license-key="$LICENSE_KEY"
     ```{{exec}}
