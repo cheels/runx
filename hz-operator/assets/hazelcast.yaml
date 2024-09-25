@@ -7,3 +7,7 @@ spec:
   repository: 'docker.io/hazelcast/hazelcast-enterprise'
   version: '5.5-slim'
   licenseKeySecretName: hazelcast-license-key
+  exposeExternally:
+    type: Smart
+    discoveryServiceType: NodePort
+    memberAccess: NodePortExternalIP
